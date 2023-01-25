@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    background: linear-gradient(61.15deg, #2f2325 14.62%, #100F2C 45.61%);
+    font-family: 'Courier New', monospace;
+}
+
+/*-----------------estilização do header---------------------*/
+
+
+header{
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: linear-gradient(61.15deg, #1e1d3f  10.62%, #0e0d41);
+}
+  
+#juliana{
+    width: 10%;
+    height: 5%;
+}
+
+/*--------------------textos do header-------------------*/
+.header-menu{
+    float: right;
+    font-size: 130%;
+    margin-top: 2%;
+    width: 52%;
+}
+.header-item{
+    float: left;
+    flex-direction:row;
+    display:flex;
+    margin-left: 10%;
+    padding: 2%;
+    font-weight: bold;
+}
+.header-item:link, :visited{
+    text-decoration: none;
+    color: beige;
+}
+
+.header-item:hover{
+    text-decoration: none;
+    color: #99403A;
+}
+
+/*--------------------------------------------*/
+
+/*--------------------começa o MAIN da HOME--------------------*/
+#oracle{
+    width: 28%;
+    height: 48%;
+    margin-left: 3%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border-radius: 3%;
+}
+aside{
+    float: right;
+    margin-right: 15%;
+    margin-top: 4%;
+    padding: 2%;
+    color: beige;
+    width: 40%;
+    text-align: left;
+    font-size: 130%;
+}
+#link-direciona{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #99403A;
+}
+
+#cv-link{
+    padding: 2%;
+    background-color: #99403A;
+    color: beige;
+    border-radius: 5%;
+}
+
+/*-------------------------------começa o MAIN DECONHECIMENTOS-------------------------------*/
+#fire1{
+    width: 3%;
+    height: 3%;
+}
+#lateral{
+    margin-top: 5%;
+    margin-left: 2%;
+    color: beige;
+}
+#manopla{
+    margin-left: 60%;
+}
+#legendamanopla{
+    width: 45%;
+    margin-left: 55%;
+}
